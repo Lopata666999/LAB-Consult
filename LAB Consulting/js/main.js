@@ -1,5 +1,14 @@
 $(function() {
 
+	// Бургер меню
+	$('.burger__link').click(function(act) {
+		act.preventDefault();
+		$(this).toggleClass('burger__link_active');
+		$('.burger__wrap').toggleClass('d-none menu__order');
+		$('.heading').toggleClass('heading__margin_active');
+		$('.menu__list').toggleClass('menu__list_active');
+	});
+
 	// Прокрутка к следущей секции
 	$('.scrollBtn').click(function(act) {
 		act.preventDefault();
@@ -29,4 +38,6 @@ $(function() {
 		prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-angle-left"></i></button>',
 		nextArrow: '<button type="button" class="slick-next"><i class="fas fa-angle-right"></i></button>'
 	});
+
+
 });

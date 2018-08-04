@@ -126,6 +126,8 @@ button, button:hover, button:focus, button:active
 	border-bottom: 4px solid rgba(88, 100, 122, 0.03);
 	padding-top: 16px;
 	padding-bottom: 7px;
+	position: relative;
+	z-index: 2;
 }
 
 .menu__list {
@@ -158,9 +160,33 @@ button, button:hover, button:focus, button:active
     border-radius: 2px;
 }
 
-.burger__link:hover .burger__line {
-	height: 4px;
+.burger__link_active .burger__line {
 	margin: 3px 0;
+}
+
+.heading__margin_active {
+	margin-bottom: -195px;
+	background: rgba(191, 194, 200, 0.9);
+}
+
+.menu__order {
+	display: block;
+	order: 2;
+	margin-top: 20px;
+}
+
+.menu__list_active {
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.menu__list_active .menu__item {
+	margin: 5px 0;
 }
 
 .offer {
