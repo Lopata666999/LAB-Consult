@@ -1,5 +1,11 @@
 $(function() {
 
+	// Прелоадер
+	var $preloader = $('#page-preloader'),
+        $spinner   = $preloader.find('.spinner');
+    $spinner.fadeOut();
+    $preloader.delay(350).fadeOut('slow');
+
 	// Бургер меню
 	$('.burger__link').click(function(act) {
 		act.preventDefault();
