@@ -4,7 +4,7 @@ $(function() {
 	var $preloader = $('#page-preloader'),
         $spinner   = $preloader.find('.spinner');
     $spinner.fadeOut();
-    $preloader.delay(350).fadeOut('slow');
+    $preloader.delay(300).fadeOut('slow');
 
 	// Бургер меню
 	$('.burger__link').click(function(act) {
@@ -44,6 +44,4 @@ $(function() {
 		prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-angle-left"></i></button>',
 		nextArrow: '<button type="button" class="slick-next"><i class="fas fa-angle-right"></i></button>'
 	});
-
-
 });

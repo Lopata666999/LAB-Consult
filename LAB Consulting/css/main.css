@@ -1081,3 +1081,24 @@ button, button:hover, button:focus, button:active
 	background: #2c60a0;
 	color: #fafafb;
 }
+
+/************* CONTACTS *************/
+
+/* --- Map --- */
+
+.container-fluid__nopadding {
+	padding: 0;
+	position: relative;
+}
+
+.map {
+	width: 100%;
+	height: 450px;
+}
+
+.contacts__info {
+	position: absolute;
+	width: 470px;
+	top: 20px;
+	right: 200px;
+}
