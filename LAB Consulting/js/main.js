@@ -7,4 +7,11 @@ $(function() {
 		destination = $(elementCick).offset().top;
 		$('body, html').animate({scrollTop: destination}, 800);
 	});
+
+	// Параллакс фона 
+
+	// Слайдер
+	$('.reviews__wrap').slick({
+		
+	});
 });
