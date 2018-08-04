@@ -1,0 +1,239 @@
+/************* MEDIA QUERIES *************/
+
+/* 992 - 1199 px */
+@media screen and (max-width: 1199px) {
+
+
+	/******* SERVICES *******/
+
+	.categoriesList {
+		margin: 20px 0;
+	}
+}
+
+/* 768 - 991 px */
+@media screen and (max-width: 991px) {
+
+	/******* INDEX *******/
+
+	.logo img {
+		width: 100%;
+	}
+
+	.trust {
+		padding-bottom: 40px;
+	}
+
+	.reason {
+		margin-bottom: 40px;
+	}
+	.discription {
+		margin-top: 30px;
+	}
+
+	.discription:first-child {
+		margin-top: 80px;
+	}
+
+	.info {
+		padding-bottom: 18px;
+	}
+
+	.mission__text {
+		width: 50%;
+	}
+
+	.mission__text_left {
+		margin-right: 20px;
+	}
+
+	.mission__btn {
+		margin-bottom: 15px;
+	}
+
+	.news__item {
+		-ms-align-items: center;
+		align-items: center;
+		padding-bottom: 16px;
+		margin-bottom: 16px;
+	}
+
+	.news__item:after {
+		width: 268px;
+	}
+
+	.footer {
+		padding: 34px 0;
+	}
+
+	.footer__logo {
+		margin-bottom: 0;
+	}
+
+	.footer__logo img {
+		width: 100%;
+	}
+
+	/******* ABOUT *******/
+
+	.first__path {
+		margin-bottom: 44px;
+	}
+
+	.advantage:after {
+		width: 100%;
+	}
+
+
+	/******* SERVICES *******/
+
+	.consult {
+		width: 100%;
+	}
+
+}
+
+/* 576 - 767 px */
+@media screen and (max-width: 767px) {
+
+}
+
+/* 320 - 575 px */
+@media screen and (max-width: 575px) {
+
+	.call {
+		font-size: 10px;
+		width: 105px;
+		padding: 5px 0;
+	}
+
+	/******* INDEX *******/
+
+	.offer {
+		padding-bottom: 105px;
+	}
+
+	.main__title {
+		font-size: 45px;
+	}
+
+	.main__text {
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+
+	.reasons__title {
+		font-size: 25px;
+	}
+
+	.mission__wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.mission__text {
+		width: 100%;
+	}
+
+	.mission__btn {
+		margin-bottom: 35px;
+	}
+
+	.news__item:after {
+		width: 100%;
+	}
+
+	.links__block {
+		text-align: center;
+	}
+
+	.footer__logo {
+		margin-bottom: 20px;
+	}
+
+	.footer__text {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.copyright {
+		text-align: left;
+		margin-top: 25px;
+	}
+
+	.footer__btn {
+		margin-top: 42px;
+	}
+
+	/******* ABOUT *******/
+
+	.first__links {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
+	}
+
+	.first__item {
+		text-align: center;
+		margin-bottom: 8px;
+	}
+
+	.advantage__image {
+		margin-bottom: 30px;
+	}
+
+	.power {
+		padding-bottom: 16px;
+	}
+
+	.power__image {
+		margin-bottom: 24px;
+	}
+
+	/******* SERVICES *******/
+
+	.services {
+		-webkit-background-size: cover;
+		background-size: cover;
+		padding-bottom: 52px;
+	}
+
+	.legal__image {
+		padding: 52px 0 25px;
+	}
+
+	.legal__title {
+		margin: 0 auto 20px;
+	}
+
+	.consult__btn {
+		margin-bottom: 12px;
+	}
+
+	.consult__tel {
+		margin: 0;
+	}
+
+	.consult__image {
+		display: none;
+	}
+}
