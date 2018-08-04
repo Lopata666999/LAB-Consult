@@ -117,7 +117,7 @@ button, button:hover, button:focus, button:active
 /* --- Header ---*/
 
 .home {
-	background: url(../img/chikago.jpg) no-repeat top center;
+	background: url(../img/chikago.jpg) no-repeat fixed top center;
 }
 
 .heading {

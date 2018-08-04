@@ -8,7 +8,20 @@ $(function() {
 		$('body, html').animate({scrollTop: destination}, 800);
 	});
 
-	// Параллакс фона 
+	// Параллакс фона
+	$window = $(window);
+
+	$('[data-type="background"]').each(function() {
+		var $bgobj = $(this);
+
+		$(window).scroll(function() {
+			var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+
+			var coords = '50% ' + yPos + 'px';
+
+			$bgobj.css({backgroundPosition: coords});
+		});
+	});
 
 	// Слайдер
 	$('.slider').slick({
