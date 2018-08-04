@@ -881,34 +881,60 @@ button, button:hover, button:focus, button:active
 }
 
 .slick-prev, .slick-next {
-	top: 52px;
+	top: 64px;
 	font-size: 25px;
 	color: #404048;
 }
 
-.slick-dots li button {
-	display: block;
-	width: 11px;
-	height: 11px;
-	background: #bdc5d6;
-	margin: 22px 9px;
+.slick-prev:focus, .slick-next:focus {
+	color: #404048;
 }
 
-/*.reviews__wrap {
-	margin: 0 30px;
+.slick-prev:hover, .slick-next:hover {
+	color: rgba(64, 64, 72, 0.7);
+}
+
+.slick-prev:active, .slick-next:active {
+	font-size: 26px;
+	color: #404048;
+}
+
+.slick-prev:before, .slick-next:before {
+	content: '';
+}
+
+.slick-dots {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	position: relative;
 }
 
-.reviews__arrow {
-	margin-top: 56px;
-	font-size: 25px;
-	color: #404048;
-}*/
+.slick-dots li {
+	width: 11px;
+	height: 11px;
+	margin: 0 9px;
+}
+
+.slick-dots li button {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #bdc5d6;
+}
+
+.slick-dots .slick-active button {
+	background: #8b9ab7;
+}
+
+.slick-dots li button:before {
+	content: '';
+	width: 100%;
+	height: 100%;
+}
 
 .review {
 	display: -webkit-flex;
@@ -961,25 +987,4 @@ button, button:hover, button:focus, button:active
 .review__link_facebook:hover {
 	background: #2c60a0;
 	color: #fafafb;
-}
-
-.review__indicators {
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	justify-content: center;
-}
-
-.review__indicator {
-	display: block;
-	width: 11px;
-	height: 11px;
-	background: #bdc5d6;
-	margin: 22px 9px;
-}
-
-.review__indicator_active {
-	background: #8b9ab7;
 }
