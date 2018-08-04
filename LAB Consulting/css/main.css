@@ -875,7 +875,26 @@ button, button:hover, button:focus, button:active
 	color: #969ca9;
 }
 
-.reviews__wrap {
+.slider {
+	margin: 0 auto;
+	width: 78%;
+}
+
+.slick-prev, .slick-next {
+	top: 52px;
+	font-size: 25px;
+	color: #404048;
+}
+
+.slick-dots li button {
+	display: block;
+	width: 11px;
+	height: 11px;
+	background: #bdc5d6;
+	margin: 22px 9px;
+}
+
+/*.reviews__wrap {
 	margin: 0 30px;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -889,7 +908,7 @@ button, button:hover, button:focus, button:active
 	margin-top: 56px;
 	font-size: 25px;
 	color: #404048;
-}
+}*/
 
 .review {
 	display: -webkit-flex;
@@ -912,10 +931,12 @@ button, button:hover, button:focus, button:active
 	margin-bottom: 14px;
 	font-size: 15.5px;
 	color: #747487;
+	text-align: center;
 }
 
 .review__text {
 	font-size: 13px;
+	text-align: center;
 }
 
 .review__link {
