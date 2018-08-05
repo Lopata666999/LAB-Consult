@@ -1086,9 +1086,8 @@ button, button:hover, button:focus, button:active
 
 /* --- Map --- */
 
-.container-fluid__nopadding {
+.container-fluid-nopadding {
 	padding: 0;
-	position: relative;
 }
 
 .map {
@@ -1099,6 +1098,126 @@ button, button:hover, button:focus, button:active
 .contacts__info {
 	position: absolute;
 	width: 470px;
+	bottom: 46px;
+	right: 0;
+	padding: 22px 32px;
+	background: rgba(88, 100, 122, 0.75);
+	border-radius: 5px;
+	z-index: 2;
+}
+
+.contacts__info:after {
+	content: '';
+	position: absolute;
+	display: block;
+	border: 34px solid transparent;
+	border-right: 34px solid rgba(88, 100, 122, 0.75);
+	width: 68px;
+	height: 68px;
 	top: 20px;
-	right: 200px;
+	left: -68px;
+}
+
+.contacts__heading {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.22);
+	margin-bottom: 45px;
+}
+
+.contacts__title {
+	color: #fff;
+}
+
+.contacts__links {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 130px;
+	justify-content: space-between;
+}
+
+.contacts__link {
+	width: 30px;
+	height: 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #f9fafa;
+	color: #fff;
+	font-size: 17px;
+}
+
+.contacts__link:hover {
+	background: #fff;
+}
+
+.contacts__link_facebook:hover {
+	color: #3d6ca8;
+}
+
+.contacts__link_twitter:hover {
+	color: #43c9fd;
+}
+
+.contacts__link_telegram:hover {
+	color: #25a3d4;
+}
+
+.contacts__wrap {
+	color: #fff;
+	padding-left: 26px;
+	font-size: 16px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.relative {
+	position: relative;
+}
+
+.contacts__icon {
+	position: absolute;
+	left: -26px;
+	top: 4px;
+}
+
+.contacts__numbers, .contacts__address {
+	margin-bottom: 22px;
+}
+
+.contacts__email {
+	color: #fff;
+}
+
+.contacts__email:hover {
+	color: #dadada;
+}
+
+.contacts__text {
+	width: 185px;
+}
+
+.contacts__paragraph {
+	font-size: 12px;
+	letter-spacing: 0;
+	color: #e2e4e6;
 }

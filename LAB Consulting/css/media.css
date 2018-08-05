@@ -95,6 +95,25 @@
 		padding-bottom: 40px;
 	}
 
+	/******* CONTACTS *******/
+
+	/* --- Map --- */
+
+	.contacts__info {
+		position: static;
+		width: 100%;
+		margin: 24px 0;
+		padding-bottom: 50px;
+	}
+
+	.contacts__info:after {
+		display: none;
+	}
+
+	.contacts__text {
+		width: 372px;
+	}
+
 }
 
 /* 576 - 767 px */
@@ -239,5 +258,27 @@
 
 	.consult__image {
 		display: none;
+	}
+
+	/******* CONTACTS *******/
+
+	/* --- Map --- */
+
+	.contacts__wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+	.contacts__info {
+		padding-bottom: 30px;
+	}
+
+	.contacts__text {
+		width: 100%;
+		margin-top: 26px;
+		margin-left: -26px;
 	}
 }
