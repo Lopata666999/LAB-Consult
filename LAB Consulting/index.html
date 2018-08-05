@@ -21,6 +21,8 @@
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Arctic Modal -->
+	<link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="css/main.css">
 	<!-- Media Queries CSS -->
@@ -487,7 +489,27 @@
 			</div>
 		</div>
 	</footer>
+	<div style="display: none;">
+	    <div class="box-modal" id="exampleModal">
+	        <form action="#" class="form">
+	        	<div class="box-modal_close arcticmodal-close">закрыть</div>
+				<div class="form__title">
+					Заказать звонок
+				</div>
+				<input type="text" class="form__input" placeholder="Введите имя" required>
+				<input type="email" class="form__input" placeholder="Введите E-mail" required>
+				<input type="tel" class="form__input" placeholder="Введите телефон" required>
+				<button class="form__btn" type="submit">
+					Заказать звонок
+				</button>
+				<div class="form__safety">
+					Ваши данные под защитой
+				</div>
+			</form>
+	    </div>
+	</div>
 	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.arcticmodal-0.3.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

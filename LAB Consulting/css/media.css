@@ -281,4 +281,22 @@
 		margin-top: 26px;
 		margin-left: -26px;
 	}
+
+	/******* ARCTIC MODAL *******/
+
+	.arcticmodal-container_i2 {
+		padding: 0;
+	}
+
+	.arcticmodal-container_i {
+		width: 90%;
+	}
+
+	.form {
+		width: 100%;
+	}
+
+	.form__btn {
+		padding: 10px 0;
+	}
 }

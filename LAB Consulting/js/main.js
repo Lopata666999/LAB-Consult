@@ -38,6 +38,12 @@ $(function() {
 		});
 	});
 
+	// Модальное окно
+	$('.footer__btn, .call').click(function(act) {
+		act.preventDefault();
+		$('#exampleModal').arcticmodal();
+	});
+
 	// Слайдер
 	$('.slider').slick({
 		dots: true,
